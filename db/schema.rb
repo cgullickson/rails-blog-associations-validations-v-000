@@ -11,12 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180208175918) do
-
-  create_table "post_tags", force: :cascade do |t|
-    t.integer "post_id"
-    t.integer "tag_id"
-  end
+ActiveRecord::Schema.define(version: 20180208174528) do
 
   create_table "posts", force: :cascade do |t|
     t.string   "name"
